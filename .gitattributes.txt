@@ -1,0 +1,10 @@
+# Forcer la détection de PHP comme langage principal
+*.php linguist-language=PHP
+
+# Ignorer les fichiers HTML, CSS et JavaScript
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+*.json linguist-detectable=false
+*.md linguist-detectable=false
+*.vue linguist-detectable=false
