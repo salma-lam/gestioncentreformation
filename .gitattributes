@@ -14,9 +14,5 @@ CHANGELOG.md export-ignore
 # Forcer la détection de PHP comme langage principal
 *.php linguist-language=PHP
 
-# Ignorer les fichiers HTML, CSS et JavaScript
-*.html linguist-detectable=false
-*.css linguist-detectable=false
+# Ignorer uniquement les fichiers JavaScript
 *.js linguist-detectable=false
-*.json linguist-detectable=false
-*.vue linguist-detectable=false
